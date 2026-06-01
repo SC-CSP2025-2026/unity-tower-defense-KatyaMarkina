@@ -25,6 +25,7 @@ public class EnemyMovement : MonoBehaviour
                 return;
             }
             Target = Target.Next;
+            transform.LookAt(Target.transform);
         }
     }
 }
