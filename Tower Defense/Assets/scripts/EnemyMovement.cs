@@ -12,6 +12,7 @@ public class EnemyMovement : MonoBehaviour
     {
         transform.position = Target.transform.position;
     }
+    
 
     // Update is called once per frame
     void Update()
